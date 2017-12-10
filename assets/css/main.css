@@ -90,7 +90,7 @@ a:after {
 }
 
 #topbar-inner {
-	background: #111;
+	background: #42B577;
 	line-height: 0;
 	text-align: center;
 }
@@ -129,13 +129,13 @@ a:after {
 }
 
 	#section-topbar ul#nav a:hover {
-	  background: #222;
+	  background: #111;
 	  text-decoration: none;
 	  border-left: 1px solid #42B577;
 	}
 
 	#section-topbar ul#nav .active a {
-		background: #44bbaa;
+		background: #42B577;
 		border-left: 1px solid #42B577;
 	}
 
