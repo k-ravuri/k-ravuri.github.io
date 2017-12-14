@@ -83,6 +83,7 @@ a:after {
 
 #section-topbar a {
   color: #fff;
+  background-color: lightgreen;
 }
 
 #topbar-inner {
@@ -260,6 +261,7 @@ a:after {
 .desc t {
 	color: #34495e;
 	font-weight: 700;
+	background-color: lightgreen;
 }
 
 .desc imp {
