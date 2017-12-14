@@ -172,11 +172,11 @@
 				<div class="col-lg-6 col-lg-offset-2">
 					<p><img class="img-responsive" src="" alt=""></p>
 				</div>
-				<div class="col-lg-6 col-lg-offset-3">
+				<div class="col-lg-6 col-lg-offset-0">
 					<p>BackBeat<center></p>
 					<p><more>A new take on metronomes using Essentia’s python open source library to
 					better visualize and facilitate an understanding for the musician about their recording. <center><br/><br/>
-					<sm><i class="icon-tag"></i> Firebase, Matplotlib</sm></more> 
+					<sm><i class="icon-tag"></i> Firebase, Matplotlib, Python</sm></more> 
 				</p>
 				</div>
 	
@@ -219,11 +219,11 @@
 						<script>
 							var doughnutData = [
 									{
-										value: 60,
+										value: 35,
 										color:"#F9EF99"
 									},
 									{
-										value : 40,
+										value : 75,
 										color : "#ecf0f1"
 									}
 								];
@@ -300,6 +300,24 @@
 									}
 								];
 								var myDoughnut = new Chart(document.getElementById("HTML").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="Java" height="130" width="130"></canvas>
+						<p>Java-Programming</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#F9EF99"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("Java").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
 			</div><!--/.row -->
